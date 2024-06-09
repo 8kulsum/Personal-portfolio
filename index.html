@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        color: white;
+      }
+      body {
+        background-color: rgb(0, 16, 21);
+        font-family: "Poppins", sans-serif;
+      }
+      .navbar {
+        display: flex;
+        background-color: rgb(17, 17, 39);
+        color: white;
+        align-items: center;
+        justify-content: center;
+        height: 9vh;
+      }
+      .navbar ul {
+        display: flex;
+        justify-content: center;
+      }
+      .navbar ul li {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0 23px;
+        font-size: 0.9rem;
+      }
+      .navbar ul li a:hover {
+        font-size: 0.96rem;
+        color: rgb(200, 200, 240);
+      }
+      .left {
+        margin-right: 500px;
+        font-size: 10px;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .firstSection .btn {
+        padding: 8px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: rgb(52, 29, 52);
+        font-size: 14px;
+      }
+      .firstSection .button {
+        padding: 8px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        background-color: rgb(52, 29, 52);
+        font-size: 14px;
+      }
+      .buttons{
+    padding:23px;
+}
+      .leftSection {
+        margin-top: 40px;
+        font-size: 1.5rem;
+        align-items: center;
+      }
+
+      .rightSection img {
+        background-color: rgb(0, 0, 33);
+        width: 80%;
+        /* margin:50px 0; */
+      }
+      #element {
+        color: purple;
+      }
+      .scndSection{
+        max-width: 20vw;
+        margin:  5px 50px;
+      }.footer{
+        display: flex;
+        padding: 29px 122px;
+        justify-content: space-evenly;
+      }
+      footer{
+         background-color: #0e0e1a;
+        height: 233px;
+    }
+    .footer ul{
+        list-style: none;
+
+    }
+    .first h3{
+        margin-left: -190px;
+    
+    }
+    .footer > div{
+       width: 10px;
+    }
+    .text-center{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+    }
+    </style>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="left">
+          <h1>Kulsum's PortFolio</h1>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="firstSection">
+      <div class="leftSection">
+        HI,My name is <span style="color: purple">Kulsum</span>
+        <div>and I am a Passionate</div>
+
+        <span id="element"></span>
+        <br>
+        <div class="buttons">
+        <button class="button">
+            Download Resume
+        </button>
+        <button class="btn">Visit Github</button>
+      </div>
+    </div>
+      <div class="rightSection">
+        <img src="img2.png" />
+      </div>
+     
+    </section>
+    <hr style="color:rgb(152, 151, 155); height: 1px; margin: 10px 84px ;">
+ <footer>
+    <div class="footer">  
+    <div class="first">
+        <h3 >Kulsum's developer portfolio</h3>
+    </div>
+    <div class="second"><ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul></div>
+    <div class="third">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact </a></li>
+          </ul>
+    </div>
+    <div class="fourth">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact </a></li>
+          </ul>
+    </div>
+</div>
+<div class="text-center">
+   &copy; kulsumsportfolio.com | All right reserved
+</div>
+ </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  
+  <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
